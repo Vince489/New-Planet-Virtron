@@ -8,7 +8,7 @@
 
 </template>
 
-<script setup>
+<script>
 
 // fetch the gamer
 const { data: gamers } = await useFetch('https://interactive-production.up.railway.app/gamers')
